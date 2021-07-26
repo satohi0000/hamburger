@@ -50,11 +50,10 @@
 .p-front{
     &__top{
         height: 530px;
-        background: url(/pictures/ダミーサイト.png) no-repeat;
+        background-image: url("pictures/ダミーサイト.png") no-repeat;
         background-size: cover;
         p{
             font-size: 40px;
-            color: #fff;
             padding-left: 86px;
             padding-top: 259px;
         }

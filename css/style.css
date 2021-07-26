@@ -24,4 +24,10 @@ html {
 .header .search_container {
   padding: 30px 20px;
 }
+
+.aside {
+  background-color: #FFF7EF;
+  width: 20%;
+  margin-left: auto;
+}
 /*# sourceMappingURL=style.css.map */

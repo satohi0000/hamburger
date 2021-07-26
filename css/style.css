@@ -16,12 +16,12 @@ html {
           justify-content: space-between;
 }
 
-.header h1 {
-  font-size: 1.5rem;
+.header_search_container {
   padding: 30px 20px;
 }
 
-.header .search_container {
+.header h1 {
+  font-size: 1.5rem;
   padding: 30px 20px;
 }
 
@@ -29,5 +29,10 @@ html {
   background-color: #FFF7EF;
   width: 20%;
   margin-left: auto;
+}
+
+.damysite img {
+  width: 80%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

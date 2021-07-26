@@ -45,17 +45,24 @@ html {
   height: 80px;
   background-color:#FFF7EF;
   justify-content: space-between;
+  &_search_container{
+    padding: 30px 20px
+  }
   h1{
     font-size:1.5rem;
     padding: 30px 20px  ;
   }
-  .search_container{
-    padding: 30px 20px
-  }
+  
 }
 
 .aside{
   background-color: #FFF7EF;
   width: 20%;
   margin-left: auto;
+}
+.damysite{
+  img{
+    width: 80%;
+    height: auto;
+  }
 }

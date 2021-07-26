@@ -64,6 +64,8 @@ html {
 .pictures{
   position: relative;
   display: flex;
+  align-self: flex-end;
+  width:80%
 }
 
 .damysite{
@@ -106,7 +108,7 @@ html {
   top: 380px;
   position: absolute;
   display: flex; 
-  right: 120px;
+  right: -150px;
   padding: 30px;
   img{ 
     width: 75%;
@@ -119,4 +121,29 @@ html {
     font-size: 3.0rem;
     font-weight: bold;
   }
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.box1{
+  background-color: white;
+  position: absolute;
+  top: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+.box2{
+  background-color: white;
+  position: absolute;
+
+}
+
+.box3{
+  background-color: white;
+  position: absolute;
 }

@@ -36,6 +36,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 80%;
 }
 
 .damysite {
@@ -88,7 +91,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  right: 120px;
+  right: -150px;
   padding: 30px;
 }
 
@@ -103,5 +106,34 @@ html {
   padding: 20px 10px 20px 10px;
   font-size: 3.0rem;
   font-weight: bold;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+}
+
+.box1 {
+  background-color: white;
+  position: absolute;
+  top: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+.box2 {
+  background-color: white;
+  position: absolute;
+}
+
+.box3 {
+  background-color: white;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

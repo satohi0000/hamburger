@@ -59,8 +59,13 @@ html {
   background-color: #FFF7EF;
   width: 20%;
   margin-left: auto;
-  top: -90px;
 }
+
+.pictures{
+  position: relative;
+  display: flex;
+}
+
 .damysite{
   position: relative;
   display: flex;
@@ -76,5 +81,42 @@ html {
     color: white;
     padding: 150px 60px;
     font-size: 3.0rem;
+  }
+}
+
+.picture1{
+  top: 380px;
+  position: absolute;
+  display: flex; 
+  padding: 30px;
+  img{
+    width: 75%;
+  }
+  p.front{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding: 20px 20px;
+    font-size: 3.0rem;
+    font-weight: bold;
+  }
+}
+
+.picture2{
+  top: 380px;
+  position: absolute;
+  display: flex; 
+  right: 120px;
+  padding: 30px;
+  img{ 
+    width: 75%;
+  }
+  p.front{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding: 20px 20px;
+    font-size: 3.0rem;
+    font-weight: bold;
   }
 }

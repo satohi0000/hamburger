@@ -82,4 +82,8 @@ input, select {
   vertical-align: middle;
 }
 
+*{
+  list-style-type:none;
+}
+
 /*reset css はここまで*/

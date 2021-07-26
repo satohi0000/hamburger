@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .l-contents {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,6 +61,19 @@
   border: solid 1px #707070;
   color: #707070;
   cursor: pointer;
+}
+
+.p-front__top {
+  height: 530px;
+  background: url(/pictures/ダミーサイト.png) no-repeat;
+  background-size: cover;
+}
+
+.p-front__top p {
+  font-size: 40px;
+  color: #fff;
+  padding-left: 86px;
+  padding-top: 259px;
 }
 
 .l-sidebar {

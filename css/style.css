@@ -29,10 +29,28 @@ html {
   background-color: #FFF7EF;
   width: 20%;
   margin-left: auto;
+  top: -90px;
+}
+
+.damysite {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .damysite img {
   width: 80%;
   height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.damysite p.front {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  padding: 150px 60px;
+  font-size: 3.0rem;
 }
 /*# sourceMappingURL=style.css.map */

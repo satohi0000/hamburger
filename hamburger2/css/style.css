@@ -1,0 +1,139 @@
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 80px;
+  background-color: #FFF7EF;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_search_container {
+  padding: 30px 20px;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  padding: 30px 20px;
+}
+
+.aside {
+  background-color: #FFF7EF;
+  width: 20%;
+  margin-left: auto;
+}
+
+.pictures {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 80%;
+}
+
+.damysite {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.damysite img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.damysite p.front {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  padding: 150px 60px;
+  font-size: 3.0rem;
+}
+
+.picture1 {
+  top: 380px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+.picture1 img {
+  width: 75%;
+}
+
+.picture1 p.front {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  padding: 20px 10px 20px 10px;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+.picture2 {
+  top: 380px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: -150px;
+  padding: 30px;
+}
+
+.picture2 img {
+  width: 75%;
+}
+
+.picture2 p.front {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  padding: 20px 10px 20px 10px;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+}
+
+.box1 {
+  background-color: white;
+  position: absolute;
+  top: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+.box2 {
+  background-color: white;
+  position: absolute;
+}
+
+.box3 {
+  background-color: white;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */

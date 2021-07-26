@@ -1,0 +1,56 @@
+$logo-del: 1290px; // ロゴ横を消す
+$nav-del: 1260px; //メニュー余白変え 
+$hmenu: 1200px;  //ハンバーガーメニュー 
+$small: 1080px;  //bottom change
+$smartphone: 767px; //スマホスタイル
+
+@mixin logo-side {
+  @media (max-width: ($logo-del)) {
+    @content;
+  }
+}
+@mixin padding {
+  @media (max-width: ($nav-del)) {
+    @content;
+  }
+}
+@mixin hamburger {
+  @media (max-width: ($hmenu)) {
+    @content;
+  }
+}
+
+@mixin bottomchange {
+  @media(max-width: ($small)){
+   @content;
+  }
+}
+
+@mixin smartphone {
+  @media (max-width: ($smartphone)) {
+    @content;
+  }
+}
+
+
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+.header{
+  display: flex;
+  width: 80%;
+  height: 80px;
+  background-color:#FFF7EF;
+  justify-content: space-between;
+  h1{
+    font-size:1.5rem;
+    padding: 30px 20px  ;
+  }
+  .search_container{
+    padding: 30px 20px
+  }
+}
+

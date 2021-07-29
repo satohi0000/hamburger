@@ -49,10 +49,10 @@
 
 .p-front{
     &__top{
-        height: 530px;
-        background-image: url("pictures/ダミーサイト.png") no-repeat;
-        background-size: cover;
-    }
+    height: 530px;
+    background-image: url("pictures/ダミーサイト.png");
+    background-size: cover;
+    background-position: center;}
 }
 
 .l-sidebar{

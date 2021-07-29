@@ -65,8 +65,9 @@
 
 .p-front__top {
   height: 530px;
-  background-image: url("pictures/ダミーサイト.png") no-repeat;
+  background-image: url("pictures/ダミーサイト.png");
   background-size: cover;
+  background-position: center;
 }
 
 .l-sidebar {

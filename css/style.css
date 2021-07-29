@@ -63,23 +63,69 @@
   cursor: pointer;
 }
 
-.l-main {
+.l-main__top {
   height: 530px;
   background-image: url("../hamburger/pictures/ダミーサイト.png");
   background-size: cover;
   background-position: center;
 }
 
-.l-main__p {
-  font-size: 2.5rem;
+.l-main__top > a {
   color: white;
+}
+
+.l-main__top p {
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 530px;
   padding-left: 20px;
 }
 
-.l-main__p > a {
+.l-main__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.l-main__bottom__left {
+  height: 500px;
+  width: 300px;
+  background-image: url("../hamburger/pictures/Eat in.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.l-main__bottom__left > a {
   color: white;
+}
+
+.l-main__bottom__left p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 530px;
+  padding-left: 20px;
+}
+
+.l-main__bottom__right {
+  height: 500px;
+  width: 300px;
+  background-image: url("../hamburger/pictures/Take out.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.l-main__bottom__right > a {
+  color: white;
+}
+
+.l-main__bottom__right p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 530px;
+  padding-left: 20px;
 }
 
 .l-sidebar {

@@ -131,7 +131,7 @@
 
 .l-main__bottom__box {
   bottom: 15px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 15px 0px 0px 0px;
 }
 

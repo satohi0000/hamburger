@@ -88,12 +88,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 60px;
+  padding: 60px 30px;
 }
 
 .l-main__bottom__left {
   height: 1000px;
-  width: 400px;
+  width: 450px;
   background-image: url("../hamburger/pictures/Eat in.png");
   background-size: cover;
   background-position: center;
@@ -112,7 +112,7 @@
 
 .l-main__bottom__right {
   height: 1000px;
-  width: 400px;
+  width: 450px;
   background-image: url("../hamburger/pictures/Take out.png");
   background-size: cover;
   background-position: center;
@@ -127,6 +127,20 @@
   font-weight: bold;
   line-height: 60px;
   padding-left: 20px;
+}
+
+.l-main__bottom__box {
+  bottom: 15px;
+  background-color: white;
+  margin: 15px 0px 0px 0px;
+}
+
+.l-main__bottom__box h2 {
+  font-size: 2rem;
+}
+
+.l-main__bottom__box p {
+  font-size: 1.0rem;
 }
 
 .l-sidebar {

@@ -66,11 +66,12 @@
     &__bottom{
         display: flex;
         justify-content: space-between;
-        padding: 60px;
+        padding: 60px 30px;
+       
 
         &__left{
             height: 1000px;
-            width: 400px;
+            width: 450px;
             background-image: url("../hamburger/pictures/Eat in.png");
             background-size: cover;
             background-position: center;
@@ -86,7 +87,7 @@
         }
         &__right{
             height: 1000px;
-            width: 400px;
+            width: 450px;
             background-image: url("../hamburger/pictures/Take out.png");
             background-size: cover;
             background-position: center;
@@ -99,6 +100,18 @@
                 line-height: 60px;
                 padding-left: 20px;
             }
+        }
+        &__box{
+            bottom: 15px;
+            background-color: white;
+            margin: 15px 0px 0px 0px;
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.0rem;
+            }
+            
         }
     }
 }

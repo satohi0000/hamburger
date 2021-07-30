@@ -57,10 +57,10 @@
             color: white;
         }
         p{
-            font-size: 2.5rem;
             font-weight: bold;
             line-height: 530px;
             padding-left: 20px;
+            font-size: 3rem;
         }
     }
     &__bottom{
@@ -69,7 +69,7 @@
         padding: 60px 30px;
        
 
-        &__left{
+        &__right{
             height: 1000px;
             width: 450px;
             background-image: url("../hamburger/pictures/Eat in.png");
@@ -79,13 +79,12 @@
                 color: white;
             }
             p{
-                font-size: 2.5rem;
                 font-weight: bold;
                 line-height: 60px;
                 padding-left: 20px;
             }
         }
-        &__right{
+        &__left{
             height: 1000px;
             width: 450px;
             background-image: url("../hamburger/pictures/Take out.png");
@@ -93,31 +92,26 @@
             background-position: center;
             >a{
                 color: white;
+                font-size: 2rem;
             }
             p{
-                font-size: 2.5rem;
                 font-weight: bold;
                 line-height: 60px;
                 padding-left: 20px;
             }
         }
+        
         &__box{
             bottom: 15px;
-            background-color: white;
+            background-color:rgba($color:white, $alpha: 0.5);
             margin: 15px 0px 0px 0px;
-            h2{
-                font-size: 2rem;
-            }
-            p{
-                font-size: 1.0rem;
-            }
-            
         }
+        h2{
+            font-size: 3rem;
+        }
+
     }
 }
-
-
-
 
 .l-sidebar{
     padding-left:0px;
@@ -149,4 +143,8 @@
             }
         }
     }    
+}
+
+.title{
+    font-size: 3rem;
 }

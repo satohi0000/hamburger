@@ -75,10 +75,10 @@
 }
 
 .l-main__top p {
-  font-size: 2.5rem;
   font-weight: bold;
   line-height: 530px;
   padding-left: 20px;
+  font-size: 3rem;
 }
 
 .l-main__bottom {
@@ -91,29 +91,10 @@
   padding: 60px 30px;
 }
 
-.l-main__bottom__left {
-  height: 1000px;
-  width: 450px;
-  background-image: url("../hamburger/pictures/Eat in.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.l-main__bottom__left > a {
-  color: white;
-}
-
-.l-main__bottom__left p {
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 60px;
-  padding-left: 20px;
-}
-
 .l-main__bottom__right {
   height: 1000px;
   width: 450px;
-  background-image: url("../hamburger/pictures/Take out.png");
+  background-image: url("../hamburger/pictures/Eat in.png");
   background-size: cover;
   background-position: center;
 }
@@ -123,7 +104,25 @@
 }
 
 .l-main__bottom__right p {
-  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+.l-main__bottom__left {
+  height: 1000px;
+  width: 450px;
+  background-image: url("../hamburger/pictures/Take out.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.l-main__bottom__left > a {
+  color: white;
+  font-size: 2rem;
+}
+
+.l-main__bottom__left p {
   font-weight: bold;
   line-height: 60px;
   padding-left: 20px;
@@ -131,16 +130,12 @@
 
 .l-main__bottom__box {
   bottom: 15px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 15px 0px 0px 0px;
 }
 
-.l-main__bottom__box h2 {
-  font-size: 2rem;
-}
-
-.l-main__bottom__box p {
-  font-size: 1.0rem;
+.l-main__bottom h2 {
+  font-size: 3rem;
 }
 
 .l-sidebar {
@@ -177,5 +172,9 @@
 
 .l-sidebar ul li ul li a {
   color: #707070;
+}
+
+.title {
+  font-size: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

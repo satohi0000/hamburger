@@ -136,9 +136,15 @@
 }
 
 .l-main__bottom__box {
+<<<<<<< HEAD
   position: absolute;
   bottom: 30px;
   margin: 10px;
+=======
+  bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 15px 0px 0px 0px;
+>>>>>>> bafa7f0cdb4418e01b1b3d62af2f9a0b2023a436
 }
 
 .l-main__bottom__box__1 {

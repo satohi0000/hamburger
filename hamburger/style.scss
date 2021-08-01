@@ -72,8 +72,6 @@
         display: flex;
         justify-content: space-between;
         padding: 60px 30px;
-
-
         &__right{
             height: 1000px;
             width: 450px;
@@ -107,35 +105,34 @@
                 padding: 15px;
             }
         }
-        
         &__box{
-<<<<<<< HEAD
             position: absolute;
             bottom: 30px;
             margin: 10px;
             &__1{
                 margin: 0px 0px 0px 0px;
                 background-color:rgba($color:white, $alpha: 0.5);
-=======
-            bottom: 15px;
-            background-color:rgba($color:white, $alpha: 0.5);
-            margin: 15px 0px 0px 0px;
-            h2{
-                font-size: 2rem;
->>>>>>> bafa7f0cdb4418e01b1b3d62af2f9a0b2023a436
             }
             &__2{
                 margin: 10px 0px 0px 0px;
                 background-color:rgba($color:white, $alpha: 0.5);
             }
+            h2{
+                padding-left: 20px;
+                font-size: 2rem;
+           }
+       }
+    }
+    &__under{
+        &__map{
+            background-image: url("../hamburger/pictures/Take out.png");
         }
-        h2{
-            padding-left: 20px;
-            font-size: 2rem;
-        }
+        &__text{
 
+        }
     }
 }
+
 
 .l-sidebar{
     >a{

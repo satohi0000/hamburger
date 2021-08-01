@@ -63,6 +63,12 @@
   cursor: pointer;
 }
 
+.line {
+  border-top: 4px solid white;
+  width: 90px;
+  margin-left: 20px;
+}
+
 .l-main__top {
   height: 530px;
   background-image: url("../hamburger/pictures/ダミーサイト.png");
@@ -135,7 +141,7 @@
 }
 
 .l-main__bottom h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .l-sidebar {
@@ -176,5 +182,6 @@
 
 .title {
   font-size: 3rem;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

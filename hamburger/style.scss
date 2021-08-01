@@ -47,6 +47,11 @@
     }
 }
 
+.line{
+    border-top:4px solid white;
+    width: 90px;
+    margin-left: 20px;
+}
 .l-main{
     &__top{
         height: 530px;
@@ -107,7 +112,7 @@
             margin: 15px 0px 0px 0px;
         }
         h2{
-            font-size: 3rem;
+            font-size: 2rem;
         }
 
     }
@@ -147,4 +152,5 @@
 
 .title{
     font-size: 3rem;
+    padding-top: 20px;
 }

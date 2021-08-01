@@ -7,9 +7,9 @@
     &__right{
         width: 20%;
         background-color: #F2EDE9;
-        height: 100%;
     }
 }
+
 
 .l-header{
     width: 100%;
@@ -22,7 +22,7 @@
         margin-left: 1.5rem;
         a{
             color: #707070;
-            font-size: 2.0rem;
+            font-size: 3.0rem;
         }
     }
     &__form{
@@ -64,7 +64,7 @@
         p{
             font-weight: bold;
             line-height: 530px;
-            padding-left: 20px;
+            padding: 0px 30px;
             font-size: 3rem;
         }
     }
@@ -72,7 +72,7 @@
         display: flex;
         justify-content: space-between;
         padding: 60px 30px;
-       
+
 
         &__right{
             height: 1000px;
@@ -80,13 +80,14 @@
             background-image: url("../hamburger/pictures/Eat in.png");
             background-size: cover;
             background-position: center;
+            position: relative;
             >a{
                 color: white;
             }
             p{
                 font-weight: bold;
                 line-height: 60px;
-                padding-left: 20px;
+                padding: 15px;
             }
         }
         &__left{
@@ -95,6 +96,7 @@
             background-image: url("../hamburger/pictures/Take out.png");
             background-size: cover;
             background-position: center;
+            position: relative;
             >a{
                 color: white;
                 font-size: 2rem;
@@ -102,16 +104,25 @@
             p{
                 font-weight: bold;
                 line-height: 60px;
-                padding-left: 20px;
+                padding: 15px;
             }
         }
         
         &__box{
-            bottom: 15px;
-            background-color:rgba($color:white, $alpha: 0.5);
-            margin: 15px 0px 0px 0px;
+            position: absolute;
+            bottom: 30px;
+            margin: 10px;
+            &__1{
+                margin: 0px 0px 0px 0px;
+                background-color:rgba($color:white, $alpha: 0.5);
+            }
+            &__2{
+                margin: 10px 0px 0px 0px;
+                background-color:rgba($color:white, $alpha: 0.5);
+            }
         }
         h2{
+            padding-left: 20px;
             font-size: 2rem;
         }
 
@@ -119,7 +130,6 @@
 }
 
 .l-sidebar{
-    padding-left:0px;
     >a{
         display: block;
         font-size: 34px;
@@ -152,5 +162,4 @@
 
 .title{
     font-size: 3rem;
-    padding-top: 20px;
 }

@@ -13,7 +13,6 @@
 .l-contents__right {
   width: 20%;
   background-color: #F2EDE9;
-  height: 100%;
 }
 
 .l-header {
@@ -37,7 +36,7 @@
 
 .l-header__left a {
   color: #707070;
-  font-size: 2.0rem;
+  font-size: 3.0rem;
 }
 
 .l-header__form {
@@ -83,7 +82,7 @@
 .l-main__top p {
   font-weight: bold;
   line-height: 530px;
-  padding-left: 20px;
+  padding: 0px 30px;
   font-size: 3rem;
 }
 
@@ -103,6 +102,7 @@
   background-image: url("../hamburger/pictures/Eat in.png");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .l-main__bottom__right > a {
@@ -112,7 +112,7 @@
 .l-main__bottom__right p {
   font-weight: bold;
   line-height: 60px;
-  padding-left: 20px;
+  padding: 15px;
 }
 
 .l-main__bottom__left {
@@ -121,6 +121,7 @@
   background-image: url("../hamburger/pictures/Take out.png");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .l-main__bottom__left > a {
@@ -131,21 +132,28 @@
 .l-main__bottom__left p {
   font-weight: bold;
   line-height: 60px;
-  padding-left: 20px;
+  padding: 15px;
 }
 
 .l-main__bottom__box {
-  bottom: 15px;
+  position: absolute;
+  bottom: 30px;
+  margin: 10px;
+}
+
+.l-main__bottom__box__1 {
+  margin: 0px 0px 0px 0px;
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 15px 0px 0px 0px;
+}
+
+.l-main__bottom__box__2 {
+  margin: 10px 0px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .l-main__bottom h2 {
+  padding-left: 20px;
   font-size: 2rem;
-}
-
-.l-sidebar {
-  padding-left: 0px;
 }
 
 .l-sidebar > a {
@@ -182,6 +190,5 @@
 
 .title {
   font-size: 3rem;
-  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

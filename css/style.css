@@ -141,12 +141,7 @@
   margin: 10px;
 }
 
-.l-main__bottom__box__1 {
-  margin: 0px 0px 0px 0px;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.l-main__bottom__box__2 {
+.l-main__bottom__box__1, .l-main__bottom__box__2 {
   margin: 10px 0px 0px 0px;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -156,8 +151,32 @@
   font-size: 2rem;
 }
 
+.l-main__under {
+  position: relative;
+}
+
 .l-main__under__map {
-  background-image: url("../hamburger/pictures/Take out.png");
+  background-image: url("../hamburger/pictures/スクリーンショット -1.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.l-main__under__map__box {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.l-main__under__map__box .title {
+  padding: 10px;
+  margin: 20px;
+}
+
+.l-main__under__map__box p {
+  margin-top: 50px;
+  line-height: 40px;
 }
 
 .l-sidebar > a {
@@ -194,5 +213,6 @@
 
 .title {
   font-size: 3rem;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

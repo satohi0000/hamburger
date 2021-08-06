@@ -109,11 +109,7 @@
             position: absolute;
             bottom: 30px;
             margin: 10px;
-            &__1{
-                margin: 0px 0px 0px 0px;
-                background-color:rgba($color:white, $alpha: 0.5);
-            }
-            &__2{
+            &__1,&__2{
                 margin: 10px 0px 0px 0px;
                 background-color:rgba($color:white, $alpha: 0.5);
             }
@@ -123,12 +119,28 @@
            }
        }
     }
-    &__under{
-        &__map{
-            background-image: url("../hamburger/pictures/Take out.png");
-        }
-        &__text{
 
+    &__under{
+        position: relative;
+        &__map{
+            background-image: url("../hamburger/pictures/スクリーンショット\ -1.png");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            &__box{
+                position: absolute;
+                width: 65%;
+                height: 100%;
+                background-color:rgba($color:black, $alpha: 0.5);
+                .title{
+                    padding: 10px;
+                    margin: 20px;
+                }
+                p{
+                    margin-top: 50px;
+                    line-height: 40px;
+                }
+            }
         }
     }
 }
@@ -167,4 +179,5 @@
 
 .title{
     font-size: 3rem;
+    color:white;
 }

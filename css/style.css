@@ -158,19 +158,18 @@
   font-size: 2rem;
 }
 
-.l-main__under {
-  position: relative;
-}
-
 .l-main__under__map {
-  background-image: url("../hamburger/pictures/スクリーンショット -1.png");
-  background-size: cover;
-  background-position: center;
-  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 0 0 30px 50px;
 }
 
 .l-main__under__map__box {
   position: absolute;
+  z-index: 2;
   width: 65%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -184,6 +183,10 @@
 .l-main__under__map__box p {
   margin-top: 50px;
   line-height: 40px;
+}
+
+.l-main__under__map__box:hover {
+  display: none;
 }
 
 .l-sidebar > a {
@@ -238,7 +241,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 1.2rem;
-  line: height 80px;
 }
 
 .l-footer__center a {

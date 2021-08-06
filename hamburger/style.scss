@@ -128,14 +128,14 @@
     }
 
     &__under{
-        position: relative;
         &__map{
-            background-image: url("../hamburger/pictures/スクリーンショット\ -1.png");
-            background-size: cover;
-            background-position: center;
-            height: 600px;
+                width: 100%;
+                display: flex;
+                position: relative;
+                margin:0 0 30px 50px;
             &__box{
                 position: absolute;
+                z-index: 2;
                 width: 65%;
                 height: 100%;
                 background-color:rgba($color:black, $alpha: 0.5);
@@ -146,6 +146,9 @@
                 p{
                     margin-top: 50px;
                     line-height: 40px;
+                }
+                &:hover{
+                    display: none;
                 }
             }
         }
@@ -197,7 +200,6 @@
         color: white;
         justify-content: center;
         font-size: 1.2rem;
-        line: height 80px;
         a{
             color: white;
         }

@@ -3,6 +3,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.l-contents__left {
+  width: 80%;
 }
 
 .l-contents__right {
@@ -42,7 +49,7 @@
 }
 
 .l-header__form {
-  margin-right: 1.8rem;
+  margin: 1.8rem;
 }
 
 .l-header__form__box {
@@ -62,6 +69,12 @@
   border: solid 1px #707070;
   color: #707070;
   cursor: pointer;
+}
+
+.l-header__right {
+  width: 20%;
+  height: 150px;
+  background-color: #F2EDE9;
 }
 
 .line__side {
@@ -107,11 +120,12 @@
 
 .l-main__bottom__right {
   height: 1000px;
-  width: 450px;
+  width: 600px;
   background-image: url("../pictures/Eat in.png");
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-right: 10px;
 }
 
 .l-main__bottom__right > a {
@@ -126,7 +140,7 @@
 
 .l-main__bottom__left {
   height: 1000px;
-  width: 450px;
+  width: 600px;
   background-image: url("../pictures/Take out.png");
   background-size: cover;
   background-position: center;

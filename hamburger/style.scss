@@ -1,5 +1,9 @@
 .l-contents{
     display: flex;
+    justify-content: space-between;
+    &__left{
+        width: 80%;
+    }
     &__right{
         width: 20%;
         background-color: #F2EDE9;
@@ -25,7 +29,7 @@
         }
     }
     &__form{
-        margin-right: 1.8rem;
+        margin: 1.8rem;
         &__box{
            width: 18rem;
            height: 2rem;
@@ -43,6 +47,12 @@
             color: #707070;
             cursor: pointer;
         }
+    }
+    &__right{
+        width: 20%;
+        height: 150px;
+        background-color: #F2EDE9;
+
     }
 }
 
@@ -80,11 +90,12 @@
         padding: 60px 30px;
         &__right{
             height: 1000px;
-            width: 450px;
+            width: 600px;
             background-image: url("../pictures/Eat in.png");
             background-size: cover;
             background-position: center;
             position: relative;
+            margin-right: 10px;
             >a{
                 color: white;
             }
@@ -96,7 +107,7 @@
         }
         &__left{
             height: 1000px;
-            width: 450px;
+            width: 600px;
             background-image: url("../pictures/Take out.png");
             background-size: cover;
             background-position: center;

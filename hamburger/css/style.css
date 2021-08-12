@@ -12,6 +12,51 @@
   width: 80%;
 }
 
+.l-contents__left__archive__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 200px;
+}
+
+.l-contents__left__archive__top__bg {
+  position: absolute;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  z-index: 1;
+}
+
+.l-contents__left__archive__top__img {
+  position: absolute;
+  background-image: url("../pictures/マスクグループ.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  z-index: 2;
+}
+
+.l-contents__left__archive__top__word {
+  color: white;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 200px;
+  margin-left: 20px;
+}
+
+.l-contents__left__archive__top__word h1 {
+  font-size: 2.5rem;
+}
+
+.l-contents__left__archive__top__word p {
+  margin: 5px 0 0 5px;
+  font-size: 1.5rem;
+}
+
 .l-contents__right {
   width: 20%;
   background-color: #F2EDE9;
@@ -34,7 +79,6 @@
 
 .l-header__left {
   width: 80%;
-  margin-left: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

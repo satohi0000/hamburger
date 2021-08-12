@@ -3,6 +3,44 @@
     justify-content: space-between;
     &__left{
         width: 80%;
+        &__archive{
+            &__top{
+                display: flex;
+                position: relative;
+                height: 200px;
+                &__bg{
+                    position: absolute;
+                    background-color: black;
+                    height: 200px;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &__img{
+                    position: absolute;
+                    background-image:url("../pictures/マスクグループ.png");
+                    background-size: cover;
+                    background-position: center;
+                    height: 200px;
+                    width: 100%;
+                    z-index: 2;
+                }
+                &__word{
+                    color: white;
+                    z-index: 3;
+                    display: flex;
+                    line-height: 200px;
+                    margin-left: 20px;
+                    h1{
+                        font-size: 2.5rem
+                    }
+                    p{
+                        margin: 5px 0 0 5px;
+                        font-size: 1.5rem;
+                    }
+
+                }
+            }
+        }
     }
     &__right{
         width: 20%;
@@ -20,7 +58,6 @@
     justify-content: space-between;
     &__left{
         width: 80%;
-        margin-left: 1.5rem;
         display: flex;
         justify-content: space-between;
         a{

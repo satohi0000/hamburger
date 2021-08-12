@@ -3,6 +3,103 @@
     justify-content: space-between;
     &__left{
         width: 80%;
+        &__single{
+            &__list{
+                margin: 30px;
+                &__1{
+                    font-size: 0.8rem;
+                }
+                &__2{
+                    font-size: 0.8rem;
+                    margin: 20px 0 20px 15px;
+                }
+            }
+            &__h2{
+                margin: 30px;
+                font-size: 2rem;
+            }
+            &__h3{
+                margin: 30px;
+                font-size: 1.5rem;
+            }
+            &__h4{
+                margin: 30px;
+                font-size: 1.2rem;
+            }
+            &__h5{
+                margin: 30px;
+                font-size: 1rem;
+            }
+            &__p{
+                margin: 30px;
+                font-size: 0.8rem;
+            }
+            &__gray{
+                margin: 30px;
+                background-color: #F5F5F5;
+                font-size: 0.8rem;
+                p{
+                    padding: 30px;
+                }
+            }
+            &__burger{
+                    &__img{
+                        background-image:url("../pictures/hamburger_set.png");
+                        background-size: cover;
+                        background-position: center;
+                        height: 450px;
+                        width: 75%;
+                        margin: auto;
+                    }
+                    &__set{
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 40px 70px 50px 70px;
+                        &__img{
+                            background-image:url("../pictures/hamburger_set.png");
+                            background-size: cover;
+                            background-position: center;
+                            height: 300px;
+                            width: 450px;
+                            margin: 40px auto;
+                        }
+                        &__sentence{
+                            height: 300px;
+                            width: 400px;
+                            font-size: 0.8rem;
+                            margin: 30px;
+                        }
+                        &__images{
+                            background-image:url("../pictures/hamburger_set.png");
+                            background-repeat:space;
+                            background-size: 33%;
+                            width: 100%;
+                            height: 700px;
+                            margin: 60px auto;
+                        }
+                    }
+                }
+            &__top{
+                display: flex;
+                &__img{
+                    background-image:url("../pictures/topチーズバーガー.png");
+                    background-size: cover;
+                    background-position: center;
+                    height: 400px;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &__word{
+                    position: absolute;
+                    color: white;
+                    z-index: 2;
+                    line-height: 400px;
+                    font-size: 2.5rem;
+                }
+                
+
+            }
+        }
         &__archive{
             &__top{
                 display: flex;

@@ -58,12 +58,39 @@
 }
 
 .l-contents__left__archive__top__title {
-  margin-top: 50px;
+  margin: 50px 30px 25px 30px;
 }
 
 .l-contents__left__archive__top__title h2 {
   margin: 25px 0;
   font-size: 1.5rem;
+}
+
+.l-contents__left__archive__bottom__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 50px 30px 25px 30px;
+}
+
+.l-contents__left__archive__bottom__menu__img {
+  background-image: url("../pictures/チーズバーガー.png");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.l-contents__left__archive__bottom__menu__box {
+  left: 530px;
+  height: 350px;
+  width: 50%;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
 }
 
 .l-contents__right {

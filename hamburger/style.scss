@@ -3,6 +3,7 @@
     justify-content: space-between;
     &__left{
         width: 80%;
+       
         &__archive{
             &__top{
                 display: flex;
@@ -39,16 +40,41 @@
                     }
                 }
                 &__title{
-                    margin-top: 50px;
+                    margin: 50px 30px 25px 30px;
                     h2{
                         margin: 25px 0;
                         font-size: 1.5rem;
+                    }      
+                }
+            } 
+            &__bottom{
+                    &__menu{
+                        display: flex;
+                        position: relative;
+                        margin: 50px 30px 25px 30px;
+
+                        &__img{
+                            background-image:url("../pictures/チーズバーガー.png");
+                            background-size: cover;
+                            background-position: center;
+                            height: 350px;
+                            width: 100%;
+                            position: absolute;
+                            z-index: 1;
+                        }
+                        &__box{
+                            left: 530px;
+                            height: 350px;
+                            width: 50%;
+                            position: absolute;
+                            z-index: 2;
+                            background-color: white;
+                
+                        }
                     }
-                    
                 }
             }
         }
-    }
     &__right{
         width: 20%;
         background-color: #F2EDE9;

@@ -12,6 +12,44 @@
   width: 80%;
 }
 
+.l-contents__left__single__bold {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin: 40px 0 40px 40px;
+}
+
+.l-contents__left__single__switch {
+  background-color: #E6E0DC;
+  color: black;
+  font-size: 1.0rem;
+  font-weight: 500;
+  padding: 4px;
+  margin: 30px;
+  border-radius: 20px;
+  line-height: 80px;
+  width: 40%;
+  text-align: center;
+  border: solid 1px #333;
+}
+
+.l-contents__left__single__table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 0px 20px 30px;
+}
+
+.l-contents__left__single__table th {
+  width: 40%;
+  border: solid 1px #333;
+  padding: 20px;
+}
+
+.l-contents__left__single__table td {
+  width: 60%;
+  border: solid 1px #333;
+  padding: 20px;
+}
+
 .l-contents__left__single__list {
   margin: 30px;
 }
@@ -99,9 +137,9 @@
   background-image: url("../pictures/hamburger_set.png");
   background-repeat: space;
   background-size: 33%;
-  width: 100%;
+  width: 95%;
   height: 700px;
-  margin: 60px auto;
+  margin: 60px 30px 0 30px;
 }
 
 .l-contents__left__single__top {
@@ -168,7 +206,7 @@
 }
 
 .l-contents__left__archive__top__word p {
-  margin: 5px 0 0 5px;
+  margin: 5px 30px 0 5px;
   font-size: 1.5rem;
 }
 

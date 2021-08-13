@@ -278,6 +278,9 @@
             color: #707070;
             font-size: 3.0rem;
         }
+        @include tab{
+            width: 100%;
+        }
     }
     &__form{
         margin: 1.8rem;
@@ -303,6 +306,9 @@
         width: 20%;
         height: 150px;
         background-color: #F2EDE9;
+        @include tab{
+            display: none;
+        }
 
     }
 }

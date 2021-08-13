@@ -334,6 +334,12 @@
   font-size: 3.0rem;
 }
 
+@media (max-width: 1024px) {
+  .l-header__left {
+    width: 100%;
+  }
+}
+
 .l-header__form {
   margin: 1.8rem;
 }
@@ -361,6 +367,12 @@
   width: 20%;
   height: 150px;
   background-color: #F2EDE9;
+}
+
+@media (max-width: 1024px) {
+  .l-header__right {
+    display: none;
+  }
 }
 
 .line__side {

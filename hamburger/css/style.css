@@ -12,6 +12,29 @@
   width: 80%;
 }
 
+.l-contents__left__page__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.l-contents__left__page__top__img {
+  background-image: url("../pictures/page_top.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.l-contents__left__page__top__word {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  line-height: 400px;
+  font-size: 2.5rem;
+}
+
 .l-contents__left__single__bold {
   font-weight: bold;
   font-size: 0.8rem;

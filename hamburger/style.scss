@@ -3,6 +3,27 @@
     justify-content: space-between;
     &__left{
         width: 80%;
+        &__page{
+            &__top{
+                display: flex;
+                &__img{
+                    background-image:url("../pictures/page_top.png");
+                    background-size: cover;
+                    background-position: center;
+                    height: 400px;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &__word{
+                    position: absolute;
+                    color: white;
+                    z-index: 2;
+                    line-height: 400px;
+                    font-size: 2.5rem;
+                }
+            }    
+
+        }
         &__single{
             &__bold{
                 font-weight: bold;

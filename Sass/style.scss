@@ -1,0 +1,572 @@
+@import"mixin";
+
+
+.l-contents{
+    display: flex;
+    justify-content: space-between;
+    &__left{
+        width: 80%;
+        @include tab{
+            width: 100%;
+        }
+        &__page{
+            &__top{
+                display: flex;
+                &__img{
+                    background-image:url("../pictures/page_top.png");
+                    background-size: cover;
+                    background-position: center;
+                    height: 400px;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &__word{
+                    position: absolute;
+                    color: white;
+                    z-index: 2;
+                    line-height: 400px;
+                    font-size: 2.5rem;
+                }
+            }    
+
+        }
+        &__single{
+            &__bold{
+                font-weight: bold;
+                font-size: 0.8rem;
+                margin: 40px 0 40px 40px;
+            }
+            &__switch{
+                background-color: #E6E0DC;
+                color: black;
+                font-size: 1.0rem;
+                font-weight: 500;
+                padding: 4px;
+                margin: 30px;
+                border-radius: 20px;
+                line-height: 80px;
+                width: 40%;
+                text-align: center;
+                border: solid 1px #333;
+            }
+            &__table{
+                width: 90%;
+                border-collapse: collapse;
+                margin: 0 0px 20px 30px;
+                th{
+                    width: 40%;
+                    border: solid 1px #333;
+                    padding: 20px;
+                }
+                td{
+                    width: 60%;
+                    border: solid 1px #333;
+                    padding: 20px;
+                }
+            }
+            &__list{
+                margin: 30px;
+                &__1{
+                    font-size: 0.8rem;
+                }
+                &__2{
+                    font-size: 0.8rem;
+                    margin: 20px 0 20px 15px;
+                }
+            }
+            &__h2{
+                margin: 30px;
+                font-size: 2rem;
+            }
+            &__h3{
+                margin: 30px;
+                font-size: 1.5rem;
+            }
+            &__h4{
+                margin: 30px;
+                font-size: 1.2rem;
+            }
+            &__h5{
+                margin: 30px;
+                font-size: 1rem;
+            }
+            &__p{
+                margin: 30px;
+                font-size: 0.8rem;
+            }
+            &__gray{
+                margin: 30px;
+                background-color: #F5F5F5;
+                font-size: 0.8rem;
+                p{
+                    padding: 30px;
+                }
+            }
+            &__burger{
+                    &__img{
+                        background-image:url("../pictures/hamburger_set.png");
+                        background-size: cover;
+                        background-position: center;
+                        height: 450px;
+                        width: 75%;
+                        margin: auto;
+                    }
+                    &__set{
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 40px 70px 50px 70px;
+                        &__img{
+                            background-image:url("../pictures/hamburger_set.png");
+                            background-size: cover;
+                            background-position: center;
+                            height: 300px;
+                            width: 450px;
+                            margin: 40px auto;
+                        }
+                        &__sentence{
+                            height: 300px;
+                            width: 400px;
+                            font-size: 0.8rem;
+                            margin: 30px;
+                        }
+                        &__images{
+                            background-image:url("../pictures/hamburger_set.png");
+                            background-repeat:space;
+                            
+                            background-size: 33%;
+                            width: 95%;
+                            height: 700px;
+                            margin: 60px 30px 0 30px;
+                        }
+                    }
+                }
+            &__top{
+                display: flex;
+                &__img{
+                    background-image:url("../pictures/topチーズバーガー.png");
+                    background-size: cover;
+                    background-position: center;
+                    height: 400px;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &__word{
+                    position: absolute;
+                    color: white;
+                    z-index: 2;
+                    line-height: 400px;
+                    font-size: 2.5rem;
+                }
+                
+
+            }
+        }
+        &__archive{
+            &__top{
+                display: flex;
+                position: relative;
+                height: 200px;
+                &__bg{
+                    position: absolute;
+                    background-color: black;
+                    height: 200px;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &__img{
+                    position: absolute;
+                    background-image:url("../pictures/マスクグループ.png");
+                    background-size: cover;
+                    background-position: center;
+                    height: 200px;
+                    width: 100%;
+                    z-index: 2;
+                }
+                &__word{
+                    color: white;
+                    z-index: 3;
+                    display: flex;
+                    line-height: 200px;
+                    margin-left: 20px;
+                    h1{
+                        font-size: 2.5rem
+                    }
+                    p{
+                        margin: 5px 30px 0 5px;
+                        font-size: 1.5rem;
+                    }
+                }
+                &__title{
+                    margin: 50px 30px 25px 30px;
+                    h2{
+                        margin: 25px 0;
+                        font-size: 1.5rem;
+                    }      
+                }
+            } 
+            &__bottom{
+                    &__menu{
+                        display: flex;
+                        position: relative;
+                        margin: 400px 30px 25px 30px;
+                        top: -350px;
+
+                        &__img{
+                            background-image:url("../pictures/チーズバーガー.png");
+                            background-size: cover;
+                            background-position: center;
+                            height: 350px;
+                            width: 100%;
+                            position: absolute;
+                            z-index: 1;
+                        }
+                        &__box{
+                            left: 50%;
+                            height: 350px;
+                            width: 50%;
+                            margin-top: 100px 0 0 0;
+                            position: absolute;
+                            z-index: 2;
+                            background-color: #3C2B1C;
+                            color: white;
+                            h2{
+                                font-size: 1.5rem;
+                                margin: 30px 0px 30px 40px;
+                            }
+                            h3{
+                                font-size: 1.2rem;
+                                margin: 0 0 20px 40px;
+                            }
+                            p{
+                                margin: 0px 20px 0 40px;
+
+                            }
+                        &__switch{
+                            background-color: white;
+                            color: black;
+                            font-size: 1.2rem;
+                            font-weight: 700;
+                            padding: 4px;
+                            margin: 30px auto;
+                            border-radius: 30px;
+                            line-height: 50px;
+                            width: 50%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__right{
+        width: 20%;
+        background-color: #F2EDE9;
+        @include tab{
+            display: none;
+        }
+    }
+}
+
+
+
+.l-header{
+    width: 100%;
+    height: 200px;
+    background-color: #FFF7EF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        &__title{
+            width: 100px;
+            margin: 0 290px;
+        }
+        a{
+            color: #707070;
+            font-size: 3.0rem;
+        }
+        @include tab{
+            width: 100%;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+        &__menu{
+            &__botton{
+                 font-size: 1.8rem;
+                 margin: 20px 20px 190px 20px ; 
+                 cursor: pointer;
+                 display: none;
+                 @include tab{
+                    display: flex;
+                }    
+            }
+        }
+    }
+    &__form{
+        margin: 1.8rem;
+        &__box{
+           width: 18rem;
+           height: 2rem;
+           border-radius: 0.6rem; 
+           border: solid 1px #707070;
+           font-size: 1.6rem;
+           font-weight: 500;
+        }
+        &__button{
+            width: 3rem;
+            height: 2rem;
+            background-color: #F2EDE9;
+            border-radius: 0.6rem;
+            border: solid 1px #707070;
+            color: #707070;
+            cursor: pointer;
+        }
+    }
+    &__right{
+        width: 20%;
+        height: 200px;
+        background-color: #F2EDE9;
+        @include tab{
+            position: fixed;
+            left: 100%;
+        }
+        &_is-open{
+            z-index: 10; 
+            left: 70%; 
+            width: 30%; 
+        }
+
+    }
+}
+
+.line{
+    &__side{
+      border-top:4px solid white;
+      width: 90px;
+      margin-left: 20px;
+    }&__border{
+      border-top:2px solid white;
+      width: 20px;
+      transform:rotate(90deg); 
+    }
+}
+
+.l-main{
+    &__top{
+        height: 530px;
+        background-image: url("../pictures/ダミーサイト.png");
+        background-size: cover;
+        background-position: center;
+        >a{
+            color: white;
+        }
+        p{
+            font-weight: bold;
+            line-height: 530px;
+            padding: 0px 30px;
+            font-size: 3rem;
+        }
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 30px;
+        &__right{
+            height: 1000px;
+            width: 600px;
+            background-image: url("../pictures/Eat in.png");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            margin-right: 10px;
+            >a{
+                color: white;
+            }
+            p{
+                font-weight: bold;
+                line-height: 60px;
+                padding: 15px;
+            }
+        }
+        &__left{
+            height: 1000px;
+            width: 600px;
+            background-image: url("../pictures/Take out.png");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            >a{
+                color: white;
+                font-size: 2rem;
+            }
+            p{
+                font-weight: bold;
+                line-height: 60px;
+                padding: 15px;
+            }
+        }
+        &__box{
+            position: absolute;
+            bottom: 30px;
+            margin: 10px;
+            &__1,&__2{
+                margin: 10px 0px 0px 0px;
+                background-color:rgba($color:white, $alpha: 0.5);
+            }
+            h2{
+                padding-left: 20px;
+                font-size: 2rem;
+           }
+       }
+    }
+
+    &__under{
+        &__map{
+                width: 100%;
+                display: flex;
+                position: relative;
+                margin:0 0 30px 50px;
+            &__box{
+                position: absolute;
+                z-index: 2;
+                width: 65%;
+                height: 100%;
+                background-color:rgba($color:black, $alpha: 0.5);
+                .title{
+                    padding: 10px;
+                    margin: 20px;
+                }
+                p{
+                    margin-top: 50px;
+                    line-height: 40px;
+                }
+                &:hover{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.l-sidebar{
+    @include tab{
+        display: none;
+    }    
+    height: inherit;
+    >a{
+        display: block;
+        font-size: 34px;
+        font-weight: 600;
+        color: #707070;
+        padding-top: 82px;
+        padding-bottom: 90px;
+    }
+    ul{
+        li{
+            padding-bottom: 15px;
+            font-size: 24px;
+            >a{
+                color: #707070;
+            }
+            ul{
+                padding-top: 45px;
+                padding-left: 20px;
+                li{
+                    font-size: 20px;
+                    padding-bottom: 30px;
+                    a{
+                        color: #707070;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.title{
+    font-size: 3rem;
+    color:white;
+}
+
+.l-footer{
+    background-color:#957F6A;
+    height: 150px;
+    &__center{
+        padding-top: 20px;
+        display: flex;
+        color: white;
+        justify-content: center;
+        font-size: 1.2rem;
+        a{
+            color: white;
+        }
+        li{
+            padding-top: 5px;
+        }
+    }
+    &__copyright{
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        
+    }
+}
+
+
+.l-archive{
+    &__top{
+        display: flex;
+        position: relative;
+        &__img{
+            height: 500px;
+            width: auto;   
+            background-image:url("../hamburger/pictures/マスクグループ.png");
+            background-size: cover;
+            background-position: center;
+        } 
+    }
+}
+
+.p-pagenation{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+        display: flex;
+        li{
+            padding: 0 8px;
+            font-size: 1.2rem;
+            &:first-of-type{
+                padding-top: 10px;
+                &::after{
+                    content: "<<";
+                    color: #3C2B1C;
+                    padding-left: 10px;
+                }
+            }
+            &:last-of-type{
+                position: relative;
+                &::after{
+                    position: absolute;
+                    top: 10px;
+                    right: -24px;
+                    content: ">>";
+                    color: #3C2B1C;
+                }
+            }
+            a{
+                display: block;
+                color: #3C2B1C;
+                border: solid 1px #3C2B1C;
+                padding: 10px;
+            }
+        }
+    }
+}

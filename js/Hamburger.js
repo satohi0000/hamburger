@@ -1,3 +1,16 @@
+$('.l-header__left__menu__botton').click(function(){
+  $(this).toggleClass('__is-open');
+  $("l-sidebar").toggleClass('__is-open');
+});
+
+$("#g-nav a").click(function(){//ナビゲーションのリンクがクリックされたら
+    $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
+    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+});
+
+
+
+
 // ドロップダウンメニュー
 //.menuをhoverした場合
 $(".drop-btn").hover(function(){

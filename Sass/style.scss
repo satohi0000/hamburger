@@ -261,6 +261,9 @@
     &__right{
         width: 20%;
         background-color: #F2EDE9;
+        @include tab{
+            width: 0%;
+        }
     }
 }
 

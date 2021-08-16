@@ -1,11 +1,9 @@
-$('.l-header__left__menu__botton').click(function(){
-  $(this).toggleClass('__is-open');
-  $("l-sidebar").toggleClass('__is-open');
+$(".l-header__left__menu__botton").click(function () {//ボタンがクリックされたら
+  $(".l-sidebar").toggleClass("__is-open");//ボタン自身に activeクラスを付与し
 });
 
-$("#g-nav a").click(function(){//ナビゲーションのリンクがクリックされたら
-    $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
-    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+$(".l-sidebar__batsu").click(function () {//ボタンがクリックされたら
+  $(".l-sidebar").toggleClass("__is-open");//ボタン自身に activeクラスを付与し
 });
 
 

@@ -567,6 +567,11 @@
 }
 
 .l-sidebar__batsu {
+  display: none;
+}
+
+.l-sidebar__batsu.__is-open {
+  display: block;
   margin: 10px 0 0 auto;
   text-align: right;
   cursor: pointer;
@@ -579,7 +584,7 @@
   position: relative;
 }
 
-.l-sidebar__batsu::before {
+.l-sidebar__batsu.__is-open::before {
   content: "";
   display: block;
   width: 100%;
@@ -596,7 +601,7 @@
   left: 14%;
 }
 
-.l-sidebar__batsu::after {
+.l-sidebar__batsu.__is-open::after {
   content: "";
   display: block;
   width: 100%;

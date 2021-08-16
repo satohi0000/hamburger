@@ -11,19 +11,23 @@
     <title>Hamburger</title>
 </head>
 
-<header>
-  <div class="l-header">
-    <div class="l-header__left">
-      <a href="front_page.html"><h1>Hamburger</h1></a>
-      <form class="l-header__form">
-      <i class="fas fa-search"></i>
-      <input class="l-header__form__box" type="search">
-      <input class="l-header__form__button" type="submit" value="検索">
-      </form>
+<body>
+  <header>
+    <div class="l-header">
+      <div class="l-header__left">
+        <a href="front_page.html"><h1>Hamburger</h1></a>
+        <form class="l-header__form">
+          <i class="fas fa-search"></i>
+          <input class="l-header__form__box" type="search">
+          <input class="l-header__form__botton" type="submit" value="検索">
+        </form>  
+      </div>
+      <div class="l-header__left__menu">
+        <div class="l-header__left__menu__botton">Menu</div>
+      </div>
+      <div class="l-header__right"></div>
     </div>
-    <div class="l-header__right"></div>
- </div>
-</header>
+  </header>
        
 <div class="l-contents">
   <article class="l-contents__left">
@@ -127,6 +131,7 @@
   </article>
   <aside class="l-contents__right">
       <div class="l-sidebar">
+        <span class="l-sidebar__batsu"></span>
         <a href="#">Menu</a>
         <ul>
          <li>
@@ -165,17 +170,19 @@
       </ul>
     </div>
   </aside>
-</div>  
-  
+</div>
 <footer class="l-footer">
- <div class="l-footer__center">
-   <li><a href="#">ショップ情報</a></li>
-   <hr class="line__border"></p>
-   <li><a href="#">ヒストリー</li></a>
-  </div>
-  <div class="l-footer__copyright">
-    <p>Copyright: RaiseTech</p>
-  </div>
-</footer>
+  <div class="l-footer__center">
+    <li><a href="#">ショップ情報</a></li>
+    <hr class="line__border"></p>
+    <li><a href="#">ヒストリー</li></a>
+   </div>
+   <div class="l-footer__copyright">
+     <p>Copyright: RaiseTech</p>
+   </div>
+ </footer>
+ <script src="js/jquery-3.6.0.js"></script>
+ <script src="js/Hamburger.js"></script>
+</body>
   
 

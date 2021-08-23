@@ -376,9 +376,8 @@
         display: flex;
         justify-content: space-between;
         padding: 60px 30px;
-        @include tab{
+        @include sp{
             flex-flow: column;
-            
         }
         &__right{
             height: 1000px;
@@ -388,6 +387,10 @@
             background-position: center;
             position: relative;
             margin-right: 10px;
+            @include tab{
+                width: 100%;
+            }
+            
             
             >a{
                 color: white;
@@ -416,13 +419,17 @@
                 padding: 15px;
             }
             @include tab{
-                margin-top: 30px;     
+                width: 100%;    
+            }
+            @include sp{
+                margin-top: 30px;
             }
         }
         &__box{
             position: absolute;
             bottom: 30px;
             margin: 10px;
+            width: 95%;
             &__1,&__2{
                 margin: 10px 0px 0px 0px;
                 background-color:rgba($color:white, $alpha: 0.5);
@@ -439,7 +446,7 @@
                 width: 100%;
                 display: flex;
                 position: relative;
-                margin:0 0 30px 50px;
+                margin:0 0 30px 30px;
             &__box{
                 position: absolute;
                 z-index: 2;
@@ -526,13 +533,14 @@
         font-size: 34px;
         font-weight: 600;
         color: #707070;
-        margin: 100px 0;
+        margin: 100px 20px;
 
     }
     ul{
         li{
             padding-bottom: 15px;
             font-size: 24px;
+            margin-left: 20px;
             >a{
                 color: #707070;
             }

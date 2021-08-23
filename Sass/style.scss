@@ -280,9 +280,8 @@
         width: 80%;
         display: flex;
         justify-content: space-between;
-        &__title{
-            width: 100px;
-            margin: 0 290px;
+        h1{
+            margin: 0 0 0 15px;
         }
         a{
             color: #707070;
@@ -301,7 +300,6 @@
                  cursor: pointer;
                  display: none;
                  z-index: 999;
-                 
                  @include tab{
                     display: flex;
                 }    
@@ -309,9 +307,10 @@
         }
     }
     &__form{
-        margin: 1.8rem;
+        margin: 1.2rem;
+        position: relative;
         &__box{
-           width: 18rem;
+           width: 290px;
            height: 2rem;
            border-radius: 0.6rem; 
            border: solid 1px #707070;
@@ -377,6 +376,10 @@
         display: flex;
         justify-content: space-between;
         padding: 60px 30px;
+        @include tab{
+            flex-flow: column;
+            
+        }
         &__right{
             height: 1000px;
             width: 600px;
@@ -385,6 +388,7 @@
             background-position: center;
             position: relative;
             margin-right: 10px;
+            
             >a{
                 color: white;
             }
@@ -393,6 +397,7 @@
                 line-height: 60px;
                 padding: 15px;
             }
+           
         }
         &__left{
             height: 1000px;
@@ -409,6 +414,9 @@
                 font-weight: bold;
                 line-height: 60px;
                 padding: 15px;
+            }
+            @include tab{
+                margin-top: 30px;     
             }
         }
         &__box{
@@ -438,13 +446,18 @@
                 width: 65%;
                 height: 100%;
                 background-color:rgba($color:black, $alpha: 0.5);
+                @include tab{
+                    width:90%;
+                }
                 .title{
+                    font-size: 2rem;
                     padding: 10px;
                     margin: 20px;
                 }
                 p{
                     margin-top: 50px;
                     line-height: 40px;
+                    line-height: 1.6rem;
                 }
                 &:hover{
                     display: none;

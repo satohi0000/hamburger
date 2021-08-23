@@ -12,7 +12,7 @@
   width: 80%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .l-contents__left {
     width: 100%;
   }
@@ -310,7 +310,7 @@
   background-color: #F2EDE9;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .l-contents__right {
     width: 0%;
   }
@@ -341,9 +341,8 @@
           justify-content: space-between;
 }
 
-.l-header__left__title {
-  width: 100px;
-  margin: 0 290px;
+.l-header__left h1 {
+  margin: 0 0 0 15px;
 }
 
 .l-header__left a {
@@ -351,7 +350,7 @@
   font-size: 3.0rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .l-header__left {
     width: 100%;
     display: -webkit-box;
@@ -373,7 +372,7 @@
   z-index: 999;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .l-header__left__menu__botton {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -382,11 +381,12 @@
 }
 
 .l-header__form {
-  margin: 1.8rem;
+  margin: 1.2rem;
+  position: relative;
 }
 
 .l-header__form__box {
-  width: 18rem;
+  width: 290px;
   height: 2rem;
   border-radius: 0.6rem;
   border: solid 1px #707070;
@@ -410,7 +410,7 @@
   background-color: #F2EDE9;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .l-header__right {
     position: fixed;
     left: 100%;
@@ -464,6 +464,15 @@
   padding: 60px 30px;
 }
 
+@media (max-width: 1200px) {
+  .l-main__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
 .l-main__bottom__right {
   height: 1000px;
   width: 600px;
@@ -504,6 +513,12 @@
   padding: 15px;
 }
 
+@media (max-width: 1200px) {
+  .l-main__bottom__left {
+    margin-top: 30px;
+  }
+}
+
 .l-main__bottom__box {
   position: absolute;
   bottom: 30px;
@@ -537,7 +552,14 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 1200px) {
+  .l-main__under__map__box {
+    width: 90%;
+  }
+}
+
 .l-main__under__map__box .title {
+  font-size: 2rem;
   padding: 10px;
   margin: 20px;
 }
@@ -545,6 +567,7 @@
 .l-main__under__map__box p {
   margin-top: 50px;
   line-height: 40px;
+  line-height: 1.6rem;
 }
 
 .l-main__under__map__box:hover {
@@ -555,7 +578,7 @@
   height: inherit;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .l-sidebar {
     position: fixed;
     z-index: 999;

@@ -294,6 +294,13 @@
   top: -350px;
 }
 
+@media (max-width: 1200px) {
+  .l-contents__left__archive__bottom__menu {
+    margin: 720px 30px 25px 30px;
+    top: -670px;
+  }
+}
+
 .l-contents__left__archive__bottom__menu__img {
   background-image: url("../pictures/チーズバーガー.png");
   background-size: cover;
@@ -327,6 +334,14 @@
 
 .l-contents__left__archive__bottom__menu__box p {
   margin: 0px 20px 0 40px;
+}
+
+@media (max-width: 1200px) {
+  .l-contents__left__archive__bottom__menu__box {
+    width: 100%;
+    top: 350px;
+    left: 0px;
+  }
 }
 
 .l-contents__left__archive__bottom__menu__box__switch {
@@ -499,6 +514,12 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 60px 30px;
+}
+
+@media (max-width: 1200px) {
+  .l-main__bottom {
+    display: block;
+  }
 }
 
 .l-main__bottom__right {
@@ -796,6 +817,13 @@
   font-size: 1.2rem;
 }
 
+@media (max-width: 1200px) {
+  .p-pagenation ul li {
+    font-size: 0.8rem;
+    padding: 0 4px;
+  }
+}
+
 .p-pagenation ul li:first-of-type {
   padding-top: 10px;
 }
@@ -804,6 +832,12 @@
   content: "<<";
   color: #3C2B1C;
   padding-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .p-pagenation ul li:first-of-type {
+    padding-left: 4px;
+  }
 }
 
 .p-pagenation ul li:last-of-type {
@@ -818,10 +852,22 @@
   color: #3C2B1C;
 }
 
+@media (max-width: 1200px) {
+  .p-pagenation ul li:last-of-type::after {
+    right: -14px;
+  }
+}
+
 .p-pagenation ul li a {
   display: block;
   color: #3C2B1C;
   border: solid 1px #3C2B1C;
   padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .p-pagenation ul li {
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

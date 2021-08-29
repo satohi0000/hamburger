@@ -35,6 +35,11 @@
                 flex-flow: column;
                 
             }
+            &__top{
+                h1{
+                    margin: 0 0 0 30px;
+                }
+            }
             &__bold{
                 font-weight: bold;
                 font-size: 0.8rem;
@@ -293,7 +298,7 @@
         display: flex;
         justify-content: space-between;
         h1{
-            margin: 0 0 0 15px;
+            margin: 0 0 0 50px;
         }
         a{
             color: #707070;
@@ -319,10 +324,10 @@
         }
     }
     &__form{
-        margin: 1.2rem;
+        margin: 20px 0 0 50px;
         position: relative;
         &__box{
-           width: 290px;
+           width: 250px;
            height: 2rem;
            border-radius: 0.6rem; 
            border: solid 1px #707070;

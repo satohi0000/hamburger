@@ -50,6 +50,10 @@
   }
 }
 
+.l-contents__left__single__top h1 {
+  margin: 0 0 0 30px;
+}
+
 .l-contents__left__single__bold {
   font-weight: bold;
   font-size: 0.8rem;
@@ -365,7 +369,7 @@
 }
 
 .l-header__left h1 {
-  margin: 0 0 0 15px;
+  margin: 0 0 0 50px;
 }
 
 .l-header__left a {
@@ -404,12 +408,12 @@
 }
 
 .l-header__form {
-  margin: 1.2rem;
+  margin: 20px 0 0 50px;
   position: relative;
 }
 
 .l-header__form__box {
-  width: 290px;
+  width: 250px;
   height: 2rem;
   border-radius: 0.6rem;
   border: solid 1px #707070;

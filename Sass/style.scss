@@ -31,6 +31,10 @@
 
         }
         &__single{
+            @include sp{
+                flex-flow: column;
+                
+            }
             &__bold{
                 font-weight: bold;
                 font-size: 0.8rem;
@@ -107,32 +111,40 @@
                         background-image:url("../pictures/hamburger_set.png");
                         background-size: cover;
                         background-position: center;
-                        height: 450px;
-                        width: 75%;
-                        margin: auto;
+                        height: 400px;
+                        width: 93%;
+                        margin:40px 0 20px 30px 
                     }
                     &__set{
                         display: flex;
                         justify-content: space-between;
-                        margin: 40px 70px 50px 70px;
+                        margin: 30px 70px 50px 30px;
                         &__img{
                             background-image:url("../pictures/hamburger_set.png");
                             background-size: cover;
                             background-position: center;
                             height: 300px;
-                            width: 450px;
+                            width: 600px;
                             margin: 40px auto;
+                            @include sp{
+                                height: 300px;
+                                width: 600px;
+    
+                            }
                         }
                         &__sentence{
                             height: 300px;
                             width: 400px;
                             font-size: 0.8rem;
-                            margin: 30px;
+                            margin: 40px 10px;
+                            @include sp{
+                                height: 100px;
+                                width: 400px;
+                            }
                         }
                         &__images{
                             background-image:url("../pictures/hamburger_set.png");
                             background-repeat:space;
-                            
                             background-size: 33%;
                             width: 95%;
                             height: 700px;
@@ -376,9 +388,6 @@
         display: flex;
         justify-content: space-between;
         padding: 60px 30px;
-        @include sp{
-            flex-flow: column;
-        }
         &__right{
             height: 1000px;
             width: 600px;
@@ -390,8 +399,6 @@
             @include tab{
                 width: 100%;
             }
-            
-            
             >a{
                 color: white;
             }

@@ -124,17 +124,17 @@
                     &__set{
                         display: flex;
                         justify-content: space-between;
-                        margin: 30px 70px 50px 30px;
+                        margin: 20px 70px 50px 20px;
                         &__img{
                             background-image:url("../pictures/hamburger_set.png");
                             background-size: cover;
                             background-position: center;
                             height: 300px;
-                            width: 600px;
+                            width: 550px;
                             margin: 40px auto;
                             @include sp{
-                                height: 200px;
-                                width: 600px;
+                                height: 250px;
+                                width: 500px;
                             }
                             &__big{
                             background-image:url("../pictures/hamburger_set.png");

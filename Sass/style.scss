@@ -431,7 +431,7 @@
         display: flex;
         justify-content: space-between;
         padding: 60px 30px;
-        @include tab{
+        @include sp{
             display: block;
         }
         &__right{
@@ -442,7 +442,7 @@
             background-position: center;
             position: relative;
             margin-right: 10px;
-            @include tab{
+            @include sp{
                 width: 100%;
             }
             >a{
@@ -471,10 +471,9 @@
                 line-height: 60px;
                 padding: 15px;
             }
-            @include tab{
-                width: 100%;    
-            }
+           
             @include sp{
+                width: 100%;
                 margin-top: 30px;
             }
         }

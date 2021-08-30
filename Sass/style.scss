@@ -314,6 +314,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    &__form{
+        display: flex;
+        justify-content: center;
+    }
     &__left{
         width: 80%;
         display: flex;
@@ -348,7 +352,8 @@
         margin: 20px 0 0 50px;
         position: relative;
         &__box{
-           width: 250px;
+           padding: 0 0 0 25px;
+            width: 250px;
            height: 2rem;
            border-radius: 0.6rem; 
            border: solid 1px #707070;
@@ -356,6 +361,7 @@
            font-weight: 500;
         }
         &__botton{
+            margin: 0 0 0 10px;
             width: 3rem;
             height: 2rem;
             background-color: #F2EDE9;
@@ -380,6 +386,17 @@
         }
 
     }
+}
+
+.fa-search{
+        top: 8px;
+        width: 10%;
+        margin-right: 265px;
+        position: absolute;
+        z-index: 999;
+        @include tab{
+            margin-right: 280px;
+        }
 }
 
 .line{

@@ -431,6 +431,8 @@
   cursor: pointer;
   display: none;
   z-index: 999;
+  color: #707070;
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {
@@ -605,6 +607,7 @@
   bottom: 30px;
   margin: 10px;
   width: 95%;
+  color: #3C2A10;
 }
 
 .l-main__bottom__box__1, .l-main__bottom__box__2 {
@@ -665,8 +668,8 @@
     position: fixed;
     z-index: 999;
     top: 0;
-    right: -40%;
-    width: 40%;
+    right: -80%;
+    width: 80%;
     height: 100vh;
     background: #F2EDE9;
     -webkit-transition: all 0.6s;

@@ -19,6 +19,10 @@
                     height: 400px;
                     width: 100%;
                     z-index: 1;
+                    &__big{
+                        height: 400px;
+                        width: 100%;
+                    }
                 }
                 &__word{
                     position: absolute;
@@ -118,36 +122,46 @@
                         background-size: cover;
                         background-position: center;
                         height: 400px;
-                        width: 93%;
-                        margin:40px 0 20px 30px 
+                        width: 550px;
+                        margin:0px auto;
+                        @include sp{
+                            height: 200px;
+                            width:400px;
+
+                        }
+                        
                     }
                     &__set{
                         display: flex;
-                        justify-content: space-between;
-                        margin: 20px 70px 50px 20px;
+                        margin: 40px auto;
+                        justify-content: center;
                         &__img{
                             background-image:url("../pictures/hamburger_set.png");
                             background-size: cover;
                             background-position: center;
-                            height: 300px;
-                            width: 550px;
-                            margin: 40px auto;
-                            @include sp{
+                            height: 500px;
+                            width: 700px;
+                            margin: 40px;
+                            @include tab{
                                 height: 250px;
-                                width: 500px;
+                                width:450px;
+                            }
+                            @include sp{
+                                height: 150px;
+                                width: 300px;
                             }
                             &__big{
                             background-image:url("../pictures/hamburger_set.png");
                             background-size: cover;
                             background-position: center;
-                            height: 300px;
-                            width: 400px;
+                            height: 400px;
+                            width: 700px;
                             margin: 40px auto;
                             }
                         }
                         &__sentence{
-                            height: 300px;
-                            width: 400px;
+                            height: 200px;
+                            width: 450px;
                             font-size: 0.8rem;
                             margin: 40px 10px;
                             @include sp{

@@ -33,6 +33,11 @@
   z-index: 1;
 }
 
+.l-contents__left__page__top__img__big {
+  height: 400px;
+  width: 100%;
+}
+
 .l-contents__left__page__top__word {
   position: absolute;
   color: white;
@@ -146,33 +151,47 @@
   background-size: cover;
   background-position: center;
   height: 400px;
-  width: 93%;
-  margin: 40px 0 20px 30px;
+  width: 550px;
+  margin: 0px auto;
+}
+
+@media (max-width: 599px) {
+  .l-contents__left__single__burger__img {
+    height: 200px;
+    width: 400px;
+  }
 }
 
 .l-contents__left__single__burger__set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 20px 70px 50px 20px;
+  margin: 40px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .l-contents__left__single__burger__set__img {
   background-image: url("../pictures/hamburger_set.png");
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 550px;
-  margin: 40px auto;
+  height: 500px;
+  width: 700px;
+  margin: 40px;
+}
+
+@media (max-width: 1200px) {
+  .l-contents__left__single__burger__set__img {
+    height: 250px;
+    width: 450px;
+  }
 }
 
 @media (max-width: 599px) {
   .l-contents__left__single__burger__set__img {
-    height: 250px;
-    width: 500px;
+    height: 150px;
+    width: 300px;
   }
 }
 
@@ -180,14 +199,14 @@
   background-image: url("../pictures/hamburger_set.png");
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 700px;
   margin: 40px auto;
 }
 
 .l-contents__left__single__burger__set__sentence {
-  height: 300px;
-  width: 400px;
+  height: 200px;
+  width: 450px;
   font-size: 0.8rem;
   margin: 40px 10px;
 }

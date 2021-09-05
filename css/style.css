@@ -78,6 +78,13 @@
   width: 40%;
   text-align: center;
   border: solid 1px #333;
+  cursor: pointer;
+}
+
+.l-contents__left__single__switch a {
+  display: block;
+  line-height: 80px;
+  width: 100%;
 }
 
 .l-contents__left__single__table {
@@ -178,7 +185,7 @@
   background-position: center;
   height: 500px;
   width: 700px;
-  margin: 40px;
+  margin: 40px 45px;
 }
 
 @media (max-width: 1200px) {

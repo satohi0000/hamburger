@@ -561,7 +561,6 @@
         }
     }    
     height: inherit;
-
     &__batsu{
         display: none;
         &.__is-open{
@@ -605,14 +604,20 @@
         font-size: 34px;
         font-weight: 600;
         color: #707070;
-        margin: 100px 50px;
+        margin: 100px 25px;
+        @include tab{
+            margin: 100px 50px;
+        }
 
     }
     ul{
         li{
             padding-bottom: 15px;
             font-size: 24px;
-            margin-left: 50px;
+            margin-left: 25px;
+            @include tab{
+                margin-left:50px;
+            }
             >a{
                 color: #707070;
             }

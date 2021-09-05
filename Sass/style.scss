@@ -336,10 +336,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    &__form{
-        display: flex;
-        justify-content: center;
-    }
     &__left{
         width: 80%;
         display: flex;
@@ -359,15 +355,18 @@
         }
         &__menu{
             &__botton{
-                 font-size: 1.8rem;
-                 margin: 10px 0px 160px ; 
-                 cursor: pointer;
-                 display: none;
-                 z-index: 999;
-                 color: #707070;
-                 font-weight: bold;
-                 @include tab{
+                font-size: 1.5rem;
+                margin: 10px -75px 160px ; 
+                cursor: pointer;
+                display: none;
+                z-index: 999;
+                color: #707070;
+                font-weight: bold;
+                @include tab{
                     display: flex;
+                }
+                @include sp{
+                   left:25px;
                 }    
             }
         }
@@ -375,9 +374,12 @@
     &__form{
         margin: 20px 0 0 50px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        right: 10px;
         &__box{
            padding: 0 0 0 25px;
-           width: 250px;
+           width: 300px;
            height: 2rem;
            border-radius: 0.6rem; 
            border: solid 1px #707070;
@@ -386,7 +388,7 @@
         }
         &__botton{
             margin: 0 0 0 10px;
-            width: 3rem;
+            width: 5rem;
             height: 2rem;
             background-color: #F2EDE9;
             border-radius: 0.6rem;
@@ -413,14 +415,13 @@
 }
 
 .fa-search{
-        top: 8px;
-        width: 10%;
-        margin-right: 265px;
-        position: absolute;
-        z-index: 999;
-        @include tab{
-            margin-right: 280px;
-        }
+    top: 8px;
+    margin-right: 360px;
+    position: absolute;
+    z-index: 999;
+    @include tab{
+        margin-right: 350px;
+    }
 }
 
 .line{

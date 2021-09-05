@@ -59,7 +59,7 @@
                 margin: 30px;
                 border-radius: 20px;
                 line-height: 80px;
-                width: 40%;
+                width: 50%;
                 text-align: center;
                 border: solid 1px #333;
                 cursor: pointer;
@@ -67,6 +67,8 @@
                     display: block;
                     line-height: 80px;
                     width: 100%;
+                    color: black;
+                    font-weight: bold;
                 }
             }
             &__table{
@@ -139,7 +141,7 @@
                     }
                     &__set{
                         display: flex;
-                        margin: 40px auto;
+                        margin: 50px auto;
                         justify-content: center;
                         &__img{
                             background-image:url("../pictures/hamburger_set.png");
@@ -147,13 +149,13 @@
                             background-position: center;
                             height: 500px;
                             width: 700px;
-                            margin: 40px 45px;
+                            margin: 60px 45px;
                             @include tab{
                                 height: 250px;
                                 width:450px;
                             }
                             @include sp{
-                                height: 150px;
+                                height: 100px;
                                 width: 300px;
                             }
                             &__big{

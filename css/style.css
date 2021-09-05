@@ -666,14 +666,16 @@
 @media (max-width: 1200px) {
   .l-sidebar {
     position: fixed;
+    overflow: scroll;
     z-index: 999;
     top: 0;
-    right: -80%;
-    width: 80%;
+    right: -100%;
+    width: 100%;
     height: 100vh;
-    background: #F2EDE9;
+    background: linear-gradient(90deg, #7F7F7F 0%, #7F7F7F 50px, #F2EDE9 50px, #F2EDE9 100%);
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
+    padding: 0 0 0 0px;
   }
   .l-sidebar.__is-open {
     right: 0%;
@@ -737,13 +739,13 @@
   font-size: 34px;
   font-weight: 600;
   color: #707070;
-  margin: 100px 20px;
+  margin: 100px 50px;
 }
 
 .l-sidebar ul li {
   padding-bottom: 15px;
   font-size: 24px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .l-sidebar ul li > a {
@@ -752,7 +754,7 @@
 
 .l-sidebar ul li ul {
   padding-top: 45px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .l-sidebar ul li ul li {

@@ -533,18 +533,21 @@
 .l-sidebar{
     @include tab{
         position:fixed;
+        overflow: scroll;
         z-index: 999;
         top:0;
-        right: -80%;
-        width: 80%;
+        right: -100%;
+        width: 100%;
         height: 100vh;
-        background:#F2EDE9;
+        background: linear-gradient(90deg,#7F7F7F 0%,#7F7F7F 50px,#F2EDE9 50px,#F2EDE9 100%);
         transition: all 0.6s;
+        padding: 0 0 0 0px;
         &.__is-open{
             right: 0%;
         }
     }    
     height: inherit;
+
     &__batsu{
         display: none;
         &.__is-open{
@@ -588,20 +591,20 @@
         font-size: 34px;
         font-weight: 600;
         color: #707070;
-        margin: 100px 20px;
+        margin: 100px 50px;
 
     }
     ul{
         li{
             padding-bottom: 15px;
             font-size: 24px;
-            margin-left: 20px;
+            margin-left: 50px;
             >a{
                 color: #707070;
             }
             ul{
                 padding-top: 45px;
-                padding-left: 20px;
+                padding-left: 10px;
                 li{
                     font-size: 20px;
                     padding-bottom: 30px;
